@@ -1,0 +1,1009 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    background: #31a047;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+header .logo
+{
+    color: rgb(236, 236, 236);
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+}
+header nav{
+    float: right;
+}
+header nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+header nav ul li a:hover
+{
+   color:#fff;
+   background:#f321d0;
+}
+.banner-card{
+    
+    width: 1370px;
+    height: 350px;
+    margin: auto;
+ }
+ .banner-text{
+    text-align: center;
+    width: 60rem;
+    color: var(--black);
+    font-size: 3rem;
+ }
+ .spy{
+    width: 1370px;
+    background-color: rgb(0, 128, 128);
+    margin: auto;
+    overflow: auto;
+ }
+ ul1{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ }
+ .hi{
+     float: left;
+     color: white;
+ }
+ a:link{
+    color: white;
+    width: 125px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ a:hover{
+    background-color: black;
+ }
+ .in{
+    position: absolute;
+    width: 67px;
+    height: 50px;
+    left: 20px;
+    top: 410px;
+    font-family: Francois One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 50px;
+    /* identical to box height */
+    text-transform: capitalize;
+    color: #15546E;
+ }
+ .col{
+    position: absolute;
+    width: 309px;
+    height: 41px;
+    left: 58px;
+    top: 450px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    /* identical to box height */
+    text-transform: capitalize;
+    color: #15546E;
+}
+.sem{
+position: absolute;
+width: 1258px;
+height: 170px;
+left: 64px;
+top: 500px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 34px;
+text-align: justify;
+text-transform: capitalize;
+color: #1A1818;
+}
+.deg{
+position: absolute;
+width: 131px;
+height: 41px;
+left: 66px;
+top: 690px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 41px;
+/* identical to box height */
+text-transform: capitalize;
+color: #15546E;
+}
+.grp{
+position: absolute;
+width: 1234px;
+height: 113px;
+left: 76px;
+font-size: 24px;
+top: 770px;
+}
+.camp{
+position: absolute;
+width: 258px;
+height: 41px;
+left: 54px;
+top: 850px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 41px;
+/* identical to box height */
+text-transform: capitalize;
+color: #15546E;
+}
+.camp1{
+position: absolute;
+width: 1258px;
+height: 170px;
+left: 64px;
+top: 900px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 34px;
+text-align: justify;
+text-transform: capitalize;
+color: #1A1818;
+}
+.img2{
+    position: absolute;
+    left:58px;
+    width: 426px;
+    height: 275px;
+    background: url(image.png);
+    border-radius: 5px;
+    top: 1160px;
+    }
+    .img3{
+    position: absolute;
+    width: 426px;
+    height: 275px;
+    left: 507px;
+    top: 1160px;
+    background: url(image.png);
+    border-radius: 5px;
+    }
+    .img4{
+        position: absolute;
+    width: 426px;
+    height: 275px;
+    left: 956px;
+    top: 1160px;
+    
+    background: url(image.png);
+    border-radius: 5px;
+    }
+    .text2{
+    position: absolute;
+    width: 206px;
+    height: 41px;
+    left: 58px;
+    top: 1460px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    /* identical to box height */
+    text-transform: capitalize;
+    color: #15546E;
+}
+.text4{
+position: absolute;
+width: 1258px;
+height: 170px;
+left: 68px;
+top: 1520px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 34px;
+text-align: justify;
+text-transform: capitalize;
+color: #1A1818;
+}
+.rule{
+position: absolute;
+width: 317px;
+height: 41px;
+left: 58px;
+top: 1750px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 41px;
+/* identical to box height */
+text-transform: capitalize;
+color: #15546E;
+}
+.rule1{
+position: absolute;
+width: 1258px;
+height: 170px;
+left: 68px;
+top: 1830px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 34px;
+text-align: justify;
+text-transform: capitalize;
+}
+.type{
+    position: absolute;
+    width: 246px;
+    height: 41px;
+    left: 58px;
+    top: 2050px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    /* identical to box height */text-transform: capitalize;
+    color: #15546E;
+    }
+    .deem{
+        position: absolute;
+    width: 298px;
+    height: 34px;
+    left: 68px;
+    top: 2110px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
+    text-align: justify;
+    text-transform: capitalize;
+    color: #1A1818;
+    }
+    .prg{
+        position: absolute;
+        width: 221px;
+        height: 37px;
+        left: 58px;
+        top: 2150px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 41px;
+        /* identical to box height */
+        text-transform: capitalize;
+        color: #15546E;
+        }
+        .prt{
+            position: absolute;
+        width: 148px;
+        height: 34px;
+        left: 68px;
+        top: 2200px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 34px;
+        /* identical to box height */
+        text-align: justify;
+        text-transform: capitalize;
+        color: #1A1818;
+        }
+        .course{
+        position: absolute;
+        width: 365px;
+        height: 50px;
+        left: 50px;
+        top: 2250px;
+        font-family: Francois One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 50px;
+        /* identical to box height */
+        text-transform: capitalize;
+        color: #15546E;
+        }
+        table{
+            position: absolute;
+            width: 600px;
+            top: 2370px;
+            font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 22px;
+           
+            margin-left: 60px;
+        }
+        table,td,th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            
+        }
+        td{
+            padding: 16px;
+        }
+        th{
+            background: #15546E;
+        }
+        .amen{
+            position: absolute;
+            width: 365px;
+            height: 50px;
+            left: 50px;
+            top: 2770px;
+            font-family: Robota;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+            line-height: 50px;
+            /* identical to box height */
+            text-transform: uppercase;
+            color: #15546E;
+            }
+            .vec{
+                position: absolute;
+            left: 15.21%;
+            right: 80.21%;
+            top: 500.77%;
+            bottom: 41.25%;
+            }
+            .lib{
+            position: absolute;
+            width: 115px;
+            height: 30px;
+            left: 170.5px;
+            top: 510.90%;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 30px;
+            /* identical to box height */
+            text-transform: capitalize;
+            color: #000000;
+            }
+            .vec1{
+                position: absolute;
+            left: 30.28%;
+            right: 6.25%;
+            top: 500.77%;
+            bottom: 7.81%;
+            }
+            .ten{
+                position: absolute;
+                width: 115px;
+                height: 30px;
+                left: 400.5px;
+                top: 510.99%;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 30px;
+                /* identical to box height */
+                text-align: center;
+                text-transform: capitalize;
+                color: #000000;
+                /* Inside auto layout */
+                
+            }
+            .vec2{
+                position: absolute;
+            left: 49.28%;
+            right: 6.25%;
+            top: 500.77%;
+            bottom: 7.81%;
+            }
+            .ball{
+                position: absolute;
+                width: 115px;
+                height: 30px;
+                left: 620.5px;
+                top: 510.99%;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 30px;
+                /* identical to box height */
+                text-align: center;
+                text-transform: capitalize;
+                color: #000000;
+                /* Inside auto layout */
+            }
+            .vec3{
+                position: absolute;
+            left: 68.21%;
+            right: 6.25%;
+            top: 500.77%;
+            bottom: 7.81%;
+            }
+            .shut{
+                position: absolute;
+                width: 115px;
+                height: 30px;
+                left: 870.5px;
+                top: 510.99%;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 30px;
+                /* identical to box height */
+                text-align: center;
+                text-transform: capitalize;
+                color: #000000;
+                /* Inside auto layout */
+            }
+            .vec4{
+                position: absolute;
+            left: 15.21%;
+            right: 12.92%;
+            top: 525.9%;
+            bottom: 57.72%;
+            }
+            .hostel{
+                position: absolute;
+            width: 73px;
+            height: 30px;
+            left: 185.5px;
+            top: 535.99%;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 30px;
+            /* identical to box height */
+            text-align: center;
+            text-transform: capitalize;
+            
+            }
+            .vec5{
+            position: absolute;
+            left: 30.28%;
+            right: 6.25%;
+            top: 520.9%;
+            bottom: 7.81%;
+            }
+            .pool{
+                position: absolute;
+                width: 115px;
+                height: 30px;
+                left: 400.5px;
+                top: 535.99%;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 30px;
+                /* identical to box height */
+                text-align: center;
+                text-transform: capitalize;
+                color: #000000;
+                /* Inside auto layout */
+                
+            }
+            .vec6{
+                position: absolute;
+            left: 49.28%;
+            right: 6.25%;
+            top: 520.9%;
+            bottom: 7.81%;
+            }
+            .base{
+                position: absolute;
+                width: 115px;
+                height: 30px;
+                left: 620.5px;
+                top: 535.99%;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 30px;
+                /* identical to box height */
+                text-align: center;
+                text-transform: capitalize;
+                color: #000000;
+                /* Inside auto layout */
+            }
+            .vec7{
+                position: absolute;
+                left: 870.5px;
+            right: 6.25%;
+            top: 525.9%;
+            bottom: 7.81%;
+            }
+            .lab{
+                position: absolute;
+                width: 115px;
+                height: 30px;
+                left: 870.5px;
+                top: 535.99%;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 30px;
+                /* identical to box height */
+                text-align: center;
+                text-transform: capitalize;
+                color: #000000;
+                /* Inside auto layout */
+            }
+            .vec8{
+                position: absolute;
+                left: 30.28%;
+                right: 6.25%;
+                top: 550.9%;
+                bottom: 7.81%;
+                }
+                .play{
+                    position: absolute;
+                    width: 115px;
+                    height: 30px;
+                    left: 370.5px;
+                    top: 560.99%;
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 25px;
+                    line-height: 30px;
+                    /* identical to box height */
+                    text-align: center;
+                    text-transform: capitalize;
+                    color: #000000;
+                    /* Inside auto layout */
+                    
+                }
+                .vec9{
+                    position: absolute;
+                left: 49.28%;
+                right: 6.25%;
+                top: 550.9%;
+                bottom: 7.81%;
+                }
+                .cls{
+                    position: absolute;
+                    width: 115px;
+                    height: 30px;
+                    left: 620.5px;
+                    top: 560.99%;
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 25px;
+                    line-height: 30px;
+                    /* identical to box height */
+                    text-align: center;
+                    text-transform: capitalize;
+                    color: #000000;
+                    /* Inside auto layout */
+                }
+                .facul{
+                    position: absolute;
+                    width: 251px;
+                    height: 50px;
+                    left: 68px;
+                    top: 570%;
+                    font-family: Francois One;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 35px;
+                    line-height: 50px;
+                    /* identical to box height */
+                    text-transform: uppercase;
+                    color: #15546E;
+                    }
+                    .p1{
+                    position: absolute;
+                    width: 219px;
+                    height: 306px;
+                    left: 99px;
+                    top: 590%;
+                    background: url(image.png);
+                    border-radius: 5px;
+                    }
+                    .jon{
+                        position: absolute;
+                        width: 171px;
+                        height: 35px;
+                        left: 123px;
+                        top: 640%;
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 30px;
+                        line-height: 35px;
+                        text-transform: capitalize;
+                        color: #1A1818;
+                        }
+                        .exp{
+                            position: absolute;
+                            width: 155px;
+                            height: 35px;
+                            left: 345px;
+                            top: 585%;
+                            font-family: Roboto;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 30px;
+                            line-height: 35px;
+                            text-transform: capitalize;
+                            color: #000000;
+                            }
+                            .para1{
+                                position: absolute;
+                                width: 383px;
+                                height: 150px;
+                                left: 348px;
+                                top: 595%;
+                                font-family: Lato;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 25px;
+                                line-height: 30px;
+                                text-transform: capitalize;
+                                color: #1A1818;
+                            }
+                            .p2{
+                                position: absolute;
+                                width: 199px;
+                                height: 306px;
+                                left: 766px;
+                                top: 590%;
+                                background: url(image.png);
+                                border-radius: 5px;
+                                }
+.exp1{
+position: absolute;
+width: 155px;
+height: 35px;
+left: 75%;
+top: 585%;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+text-transform: capitalize;
+color: #000000;
+}
+.jon1{
+position: absolute;
+width: 171px;
+height: 35px;
+left: 800px;
+top: 640%;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+text-transform: capitalize;
+color: #1A1818;
+}
+.para2{
+    position: absolute;
+    width: 383px;
+    height: 150px;
+    left: 990px;
+    top: 595%;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: capitalize;
+    
+    color: #1A1818;    
+}
+.p3{
+    position: absolute;
+    width: 219px;
+    height: 306px;
+    left: 99px;
+    top: 670%;
+    background: url(image.png);
+    border-radius: 5px;
+    }
+    .exp2{
+    position: absolute;
+    width: 155px;
+    height: 35px;
+    left: 345px;
+    top: 665%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: capitalize;
+    color: #000000;
+    }
+.para3{
+    position: absolute;
+    width: 383px;
+    height: 150px;
+    left: 340px;
+    top: 675%;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #1A1818;
+}
+.jon3{
+    position: absolute;
+width: 171px;
+height: 35px;
+left: 123px;
+top: 720%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+text-transform: capitalize;
+
+color: #1A1818;
+}
+.p4{
+    position: absolute;
+    width: 199px;
+    height: 306px;
+    left: 772px;
+    top: 670%;
+    background: url(image.png);
+    border-radius: 5px;
+}   
+.exp3{
+position: absolute;
+width: 155px;
+height: 35px;
+left: 997px;
+top: 665%;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+text-transform: capitalize;
+color: #000000;
+}
+.para4{
+position: absolute;
+width: 383px;
+height: 150px;
+left: 990px;
+top: 675%;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 30px;
+text-transform: capitalize;
+color: #1A1818;
+}
+.jon4{
+position: absolute;
+width: 171px;
+height: 35px;
+left: 800px;
+top: 720%;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+text-transform: capitalize;
+color: #1A1818;
+}
+.more{
+    position: absolute;
+    width: 171px;
+    height: 47px;
+    left: 1186px;
+    top: 730%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #15546E;
+}
+.rev{
+    position: absolute;
+    width: 129px;
+    height: 50px;
+    left: 20px;
+    top: 750%;
+    font-family: Francois One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 50px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #15546E;
+    }
+    .goo{
+    position: absolute;
+    width: 65px;
+    height: 66px;
+    left: 122px;
+    top: 780%;
+    background: url(image.png);
+    }
+    .go1{
+    position: absolute;
+    width: 203px;
+    height: 35px;
+    left: 234px;
+    top: 780%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: capitalize;
+    color: #000000;
+    }
+    .just{
+        position: absolute;
+        width: 112px;
+        height: 34px;
+        left: 99px;
+        top: 800%;
+        background: url(image.png);
+    }
+    .j1{
+        position: absolute;
+        width: 218px;
+        height: 35px;
+        left: 239px;
+        top: 795%;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 35px;
+        text-transform: capitalize;
+        color: #000000;
+    }
+    .face{
+        position: absolute;
+        width: 81px;
+        height: 89px;
+        left: 114px;
+        top: 810%;
+        background: url(image.png);
+    }
+    .f1{
+    position: absolute;
+    width: 240px;
+    height: 35px;
+    left: 234px;
+    top: 810%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: capitalize;
+    color: #000000;
+    }
+.cmt{
+position: absolute;
+width: 214px;
+height: 50px;
+left: 20px;
+top: 829%;
+font-family: Francois One;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 50px;
+/* identical to box height */
+text-transform: uppercase;
+color: #15546E;
+}
+.ans{
+position: absolute;
+width: 996px;
+height: 446px;
+left: 99px;
+top: 850%;
+background: #FCFCFC;
+border: 1px solid rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+}
+.post{
+    position: absolute;
+width: 62px;
+height: 35px;
+left: 1000px;
+top: 930%;
+border: 3px solid;
+background-color: aqua;
+cursor: pointer;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+text-transform: capitalize;
+
+color: #3b20d1;
+}
+.arr{
+    /* akar-icons:arrow-up */
+position: absolute;
+width: 45px;
+height: 48px;
+left: 1156px;
+top: 954%;
+color: red;
+
+
+}
+.cir{
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 1130px;
+top: 950%;
+
+
+}
